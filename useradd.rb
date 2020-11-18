@@ -1,4 +1,4 @@
-#https://docs.chef.io/resources/user/
+# https://docs.chef.io/resources/user/
 user 'roshanms' do
   shell '/bin/bash'
   uid '9999'
