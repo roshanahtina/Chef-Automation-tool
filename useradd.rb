@@ -4,5 +4,5 @@ user 'roshanms' do
   uid '9999'
   comment 'THis is a test user called Roshan MS'
   home '/home/roshanmsms'
-  action 'delete'
+  action 'remove'
 end
