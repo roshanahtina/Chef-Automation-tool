@@ -5,7 +5,7 @@ end
 
 # Create a index.html file and put some hello world content in it...
 file '/var/www/html/index.html' do
-  content 'This is a file to say HELLO WORLD!!!!\n'
+  content '<html>This is a file to say HELLO WORLD !!!!</html>'
   action :create
 end
 
