@@ -11,5 +11,5 @@ end
 
 # HTTPD server is to install
 service 'httpd' do
-  action :stop
+  action :start
 end
