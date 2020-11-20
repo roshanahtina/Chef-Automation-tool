@@ -5,7 +5,7 @@ directory '/home/ansible/chef_testdir' do
   action :create
 end
 
-file '/home/ansbile/chef_testfile' do
+file '/home/ansbile/chef_testdir/chef_testfile' do
   owner 'cloud_user'
   group 'cloud_user'
   mode '444'
