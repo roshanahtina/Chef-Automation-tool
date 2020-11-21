@@ -3,7 +3,7 @@ directory '/home/ansible/chef_testdir' do
   group 'ansible'
   mode '755'
   recursive 'true'
-  action :create
+  action :remove
 end
 
 file '/home/ansible/chef_testdir/chef_testfile' do
