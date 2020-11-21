@@ -2,6 +2,7 @@ directory '/home/ansible/chef_testdir' do
   owner 'ansible'
   group 'ansible'
   mode '755'
+  recursive 'true'
   action :create
 end
 
