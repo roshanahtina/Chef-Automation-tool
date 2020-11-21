@@ -9,6 +9,6 @@ file '/home/ansbile/chef_testdir/chef_testfile' do
   owner 'ansible'
   group 'ansible'
   mode '644'
-  action :create
+  action :touch
   content "This is a test file to make entires in chef_testfile\n"
 end
