@@ -3,7 +3,7 @@ maintainer 'The ROshan'
 maintainer_email 'roshan@example.com'
 license 'AFL-3.0'
 description 'Installs/Configures tomcat_stack server'
-long_description 'Installs/Configures tomcat_stack/logs'
+long_description 'Installs/Configures tomcat_stack logs'
 version '0.1.0'
 chef_version '>= 14.0'
 
