@@ -2,3 +2,53 @@ Idempotance & Convergence
 
 Kife Command - @ https://docs.chef.io/workstation/knife_list/
 Chef resource - @ https://docs.chef.io/resources/
+
+#Ruby Installation::
+$sudo yum install ruby -y
+$gem install pry
+
+#{String value here}::
+[6] pry(main)> name = "roshan"
+=> "roshan"
+[9] pry(main)> puts "Myname is #{name}"
+Myname is roshan
+=> nil
+[10] pry(main)> puts "Myname is #{name} and age is #{d}"
+Myname is roshan and age is 6
+=> nil
+[14] pry(main)> names = "Munavar"
+=> "Munavar"
+[15] pry(main)> puts "My Name Is #{name} & Last Name Is #{names}"
+My Name Is roshan & Last Name Is Munavar
+=> nil
+[16] pry(main)> puts "My Name Is #{name} & Last Name Is #{'names'}"
+My Name Is roshan & Last Name Is names
+=> nil
+[17] pry(main)> puts "My Name Is #{name} & Last Name Is '#{names}'"
+My Name Is roshan & Last Name Is 'Munavar'
+=> nil
+[18] pry(main)> puts "My Name Is #{name} & Last Name Is '#{names}' AND age is #{d}"
+My Name Is roshan & Last Name Is 'Munavar' AND age is 6
+=> nil
+[19] pry(main)> puts "My Name Is '#{name} & Last Name Is #{names}' AND age is #{d}"
+My Name Is 'roshan & Last Name Is Munavar' AND age is 6
+================================================
+# ARRAY In Ruby::
+[30] pry(main)> roshan = [1,2,34,5,6,6]
+=> [1, 2, 34, 5, 6, 6]
+[31] pry(main)> puts "My Array are #{roshan}"
+My Array are [1, 2, 34, 5, 6, 6]
+[33] pry(main)> puts "My Array are #{roshan[3]}"
+My Array are 5
+================================================
+Hash:
+
+[45] pry(main)> hash = {'name' => 'roshan'}
+=> {"name"=>"roshan"}
+[46] pry(main)> hash['name']
+=> "roshan"
+[47] pry(main)> 
+
+================================================
+
+
