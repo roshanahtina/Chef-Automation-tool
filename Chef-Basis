@@ -49,6 +49,14 @@ Hash:
 => "roshan"
 [47] pry(main)> 
 
+[4] pry(main)> names = {'ft' => 'roshan'}
+=> {"ft"=>"roshan"}
+[5] pry(main)> namess = {'lst' => 'Munavar'}
+=> {"lst"=>"Munavar"}
+
+[15] pry(main)> puts "My First Name IS :: #{names['ft']}' And Last Name Is :: #{namess['lst']}"
+My First Name IS :: roshan' And Last Name Is :: Munavar
+=> nil
 ================================================
 
 
