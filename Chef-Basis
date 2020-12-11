@@ -61,5 +61,19 @@ Hash:
 My First Name IS :: roshan' And Last Name Is :: Munavar
 => nil
 ================================================
+Ruby Blocks:
+--------------
 
-
+=> [1, 2, 3, 4, 5]
+[9] pry(main)> puts "#{ary}"
+[1, 2, 3, 4, 5]
+=> nil
+[10] pry(main)> ary.each  { |foo| puts foo * 2}
+2
+4
+6
+8
+10
+=> [1, 2, 3, 4, 5]
+[11] pry(main)>
+================================================
