@@ -11,6 +11,6 @@ end
 #         true
 #       end
 # end
-cookbook_file '/home/cloud_user/static_file' do
-  verify { 1 == 1 }
-end
+# cookbook_file '/home/cloud_user/static_file' do
+#  verify { 1 == 1 }
+# end
