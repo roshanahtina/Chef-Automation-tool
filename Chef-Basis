@@ -63,7 +63,7 @@ My First Name IS :: roshan' And Last Name Is :: Munavar
 ================================================
 Ruby Blocks:
 --------------
-
+ary=[1,2,3,4,5]
 => [1, 2, 3, 4, 5]
 [9] pry(main)> puts "#{ary}"
 [1, 2, 3, 4, 5]
@@ -76,4 +76,17 @@ Ruby Blocks:
 10
 => [1, 2, 3, 4, 5]
 [11] pry(main)>
+
+[OR]
+
+[1] pry(main)> ary=[1,2,3,4,5].each do |ary|
+[1] pry(main)*   puts "#{ary}"
+[1] pry(main)* end  
+1
+2
+3
+4
+5
+=> [1, 2, 3, 4, 5]
+[2] pry(main)>
 ================================================
